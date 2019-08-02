@@ -1,2 +1,1 @@
-declare const _default: (a?: number, b?: number) => number;
-export default _default;
+export declare const add: (a?: number, b?: number) => number;
