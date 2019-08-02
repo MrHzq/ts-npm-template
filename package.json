@@ -1,6 +1,6 @@
 {
     "name": "ts-npm-template",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "TypeScript 发布 Npm 包 模板",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
