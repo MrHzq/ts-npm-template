@@ -1,5 +1,4 @@
-# 排除 lib文件
 lib/
-.history
-coverage
 coverage/
+.history
+tsconfig.json
