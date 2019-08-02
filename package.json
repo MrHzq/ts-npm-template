@@ -1,0 +1,34 @@
+{
+    "name": "ts-npm-template",
+    "version": "1.0.8",
+    "description": "TypeScript 发布 Npm 包 模板",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "mocha --reporter spec",
+        "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MrHzq/ts-npm-template.git"
+    },
+    "keywords": [
+        "ts"
+    ],
+    "readme": "使用手册https://github.com/MrHzq/ts-npm-template",
+    "readmeFilename": "README.md",
+    "author": "hzq",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MrHzq/ts-npm-template/issues"
+    },
+    "homepage": "https://github.com/MrHzq/ts-npm-template#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "coveralls": "^3.0.5",
+        "istanbul": "^0.4.5",
+        "mocha": "^6.2.0",
+        "typescript": "^3.5.3"
+    }
+}
