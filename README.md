@@ -7,7 +7,7 @@ TypeScript 发布 Npm 包 模板
 ## 发布流程
 
 1. `npm run build`
-2. `npm run cover`
+2. `npm run cover（可省略）`
 3. `npm login`
 4. `npm version patch`
 5. `npm publish`
